@@ -22,7 +22,7 @@ strumenti di aiuto (tooltip, glossario, ecc.). Sciogliete sempre le abbreviazion
 
 ### Link
 
-Si dovrebbero evitare “pop up” o aperture di pagina esterne. Nel caso di inserimento di link esterni questi dovrebbero essere accompagnati da un avviso leggibile anche dagli screen reader (ad esempio "Questo link si aprirà in una nuova finestra"). 
+Si dovrebbero evitare “pop-up” o aperture di pagina esterne. Nel caso di inserimento di link esterni questi dovrebbero essere accompagnati da un avviso leggibile anche dagli screen reader (ad esempio "Questo link si aprirà in una nuova finestra"). 
 
 <div class="lg-callout lg-callout-must">
 <mark>SI DEVE</mark>
@@ -30,7 +30,7 @@ I link devono essere costituiti da parole-chiave significative. Non usare mai la
 </div>
 
 ### Corretta ortografia
-Si raccomanda una particolare attenzione alla corretta ortografia della lingua italiana, soprattutto per quanto riguarda l’uso degli accenti e degli apostrofi. Pertanto si dovranno utilizzare le corrette entità Html, scrivendo È (È) e non E’. Analogamente si dovranno utilizzare le virgolette alte doppie “ ” (&ldquote; &rdquote;) o le virgolette alte semplici ‘ ’ (&lsquote; &rsquote;) al posto delle virgolette indifferenziate dritte.
+Si raccomanda una particolare attenzione alla corretta ortografia della lingua italiana, soprattutto per quanto riguarda l’uso degli accenti e degli apostrofi. Pertanto si dovranno utilizzare le corrette entità HTML, scrivendo È (È) e non E’. Analogamente si dovranno utilizzare le virgolette alte doppie “ ” (&ldquote; &rdquote;) o le virgolette alte semplici ‘ ’ (&lsquote; &rsquote;) al posto delle virgolette indifferenziate dritte.
 
 ### L’interfaccia
 Nel definire le voci del menu, della navigazione e dei comandi si deve usare una terminologia univoca, dove la stessa definizione non conduca, in luoghi diversi, ad azioni differenti. Nei bottoni e nelle etichette descrivere in modo coerente e puntuale quali sono le azioni che ci dobbiamo aspettare nell’eseguire un comando o nel riempire un form. Siate specifici: “Cerca” invece di “Invia”, “Paga” invece di “Ok”.Il significato di “Cancella” è diverso da “Annulla”. Siate espliciti: “Pubblica amministrazione” invece di “PA”.
@@ -38,5 +38,5 @@ Nel definire le voci del menu, della navigazione e dei comandi si deve usare una
 ### Rendere chiara la gerarchia
 <div class="lg-callout lg-callout-must">
 <mark>SI DEVE</mark>
-Per una corretta definizione della struttura gerarchica dei contenuti, la suddivisione in parti deve essere espressa attraverso l’uso dei tag semantici disponibili in Html5, quali ```<article>, <aside>, <figcaption>, <header>, <footer>```, ecc., al posto del generico divisore ```<div>```.
+Per una corretta definizione della struttura gerarchica dei contenuti, la suddivisione in parti deve essere espressa attraverso l’uso dei tag semantici disponibili in HTML5, quali ```<article>, <aside>, <figcaption>, <header>, <footer>```, ecc., al posto del generico divisore ```<div>```.
 </div>

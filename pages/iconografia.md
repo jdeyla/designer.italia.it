@@ -13,8 +13,8 @@ Al fine di garantire una coerenza visiva si consiglia di utilizzare icone proven
 <!-- La dimensione minima di un'icona è di 30dp -->
 <!-- ![](/images/tavola_31.png) -->
 
-Il framework CSS bootstrap incorpora invece le [icone del set glyphicons](http://glyphicons.com/).
-É opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
+Il framework CSS Bootstrap incorpora invece le [icone del set glyphicons](http://glyphicons.com/).
+È opportuno utilizzare solo icone e immagini che siano realmente necessari alla comprensione delle informazioni da parte dell'utente. Evitare elementi decorativi non essenziali.
 
 ### Badge
 
@@ -30,15 +30,21 @@ Il framework CSS bootstrap incorpora invece le [icone del set glyphicons](http:/
 ```
 
 ```markup
-<i class="ita-colore-blu-italia-50 glyphicon glyphicon-camera badge-container">
+<span class="ita-colore-blu-italia-50 badge-container">
+  <span class="glyphicon glyphicon-camera" aria-hidden="true" title="foto"></span>
   <span class="badge">4</span>
-</i>
-<i class="ita-colore-blu-italia-50 glyphicon glyphicon-facetime-video badge-container">
+  <span class="sr-only">foto</span>
+</span>
+<span class="ita-colore-blu-italia-50 badge-container">
+  <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" title="video"></span>
   <span class="badge">4</span>
-</i>
-<i class="ita-colore-blu-italia-50 glyphicon glyphicon-picture badge-container">
+  <span class="sr-only">video</span>
+</span>
+<span class="ita-colore-blu-italia-50 badge-container">
+  <span class="glyphicon glyphicon-picture" aria-hidden="true" title="immagini"></span>
   <span class="badge">4</span>
-</i>
+  <span class="sr-only">immagini</span>
+</span>
 ```
 
 <!-- ![html](/images/tavola_32.png) -->
