@@ -67,7 +67,7 @@ article table {
   }
 }
 
-#footer a:focus{ outline: #ff8c00 solid 3px !important;
+#footer a:focus, #nav-toggle:focus{ outline: #ff8c00 solid 3px !important;
     background: none !important;
     color: inherit !important;}
 
